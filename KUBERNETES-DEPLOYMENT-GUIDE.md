@@ -440,17 +440,3 @@ minikube delete
 cd "c:\Users\shaik\OneDrive\Desktop\end lab\Sample-Ansible-Playbook-template"
 .\deploy-to-kubernetes.ps1
 ```
-. Purpose of GitHub Actions in CI/CD pipelines:
-GitHub Actions automates building, testing, and deploying your code whenever changes occur, enabling continuous integration and continuous delivery directly within GitHub.
-
-2. Difference between Docker image and container:
-A Docker image is a fixed, read-only blueprint of your application, while a container is the running instance created from that image.
-
-3. Difference between volume and bind mount:
-A volume is Docker-managed persistent storage stored inside Docker’s storage system, while a bind mount directly maps a specific host machine folder to a container folder.
-
-4. Role of a Service in Kubernetes:
-A Kubernetes Service provides stable networking by exposing Pods using a permanent IP and DNS name, enabling load balancing and reliable communication even if Pods change.
-
-5. What is Ansible and why it is used:
-Ansible is an automation and configuration-management tool used for provisioning servers, deploying applications, managing infrastructure, and performing tasks across many machines without needing agents.
